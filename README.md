@@ -1,4 +1,4 @@
-# Package Inspector
+# NPM Package Inspector
 
 A native macOS app for seeing exactly what's installed in a Node.js project — point it at a
 folder, and it reads your `package-lock.json`, `yarn.lock`, or `pnpm-lock.yaml` to show every

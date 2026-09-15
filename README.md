@@ -103,4 +103,4 @@ The project has one small dependency, resolved automatically via Swift Package M
 
 ## License
 
-Personal project — add a license here if you plan to distribute this.
+Personal project

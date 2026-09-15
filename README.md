@@ -50,6 +50,35 @@ anywhere in the project:
   bulk-fetched first so the report is actually complete.
 - Folder picker or drag-and-drop to load a project; direct links to each package's npm page.
 
+## Installation
+
+Install via Homebrew:
+
+```bash
+brew install souvickcse/tap/package-inspector
+```
+
+This taps [souvickcse/homebrew-tap](https://github.com/souvickcse/homebrew-tap) automatically
+and installs the app to `/Applications`.
+
+> **A note on Gatekeeper**: this build is signed with a personal Apple Developer certificate,
+> not a notarized Developer ID (that requires a paid Apple Developer Program membership). The
+> Homebrew Cask clears the quarantine flag on install, so it launches normally with no extra
+> steps. If you ever get the `.app` some other way (not via Homebrew), you may need to
+> right-click → Open the first time, or run `xattr -cr "/Applications/Package Inspector.app"`.
+
+**Updating:**
+
+```bash
+brew upgrade souvickcse/tap/package-inspector
+```
+
+**Uninstalling:**
+
+```bash
+brew uninstall --cask souvickcse/tap/package-inspector
+```
+
 ## Requirements
 
 - macOS 13 or later
@@ -57,6 +86,8 @@ anywhere in the project:
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) — `brew install xcodegen`
 
 ## Building from source
+
+Only needed if you want to build the app yourself instead of installing via Homebrew.
 
 ```bash
 brew install xcodegen   # one-time
